@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">tryfirebase</string>
+    <string name="action_settings">Settings</string>
+    <string name="fcm_token">FCM Token: %s</string>
+</resources>
