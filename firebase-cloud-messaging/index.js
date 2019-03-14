@@ -5,12 +5,12 @@ const axios = require('axios')
 const MESSAGING_SCOPE = 'https://www.googleapis.com/auth/firebase.messaging'
 const SCOPES = [MESSAGING_SCOPE]
 
-const serviceAccount = require('./tryfirebase-a3bd9-firebase-adminsdk-jgpgl-3bee92950a.json')
-const databaseURL = 'https://tryfirebase-a3bd9.firebaseio.com/'
+const serviceAccount = require('./smart-monitoring-t219-firebase-adminsdk-cvhuo-2a4d626b03.json')
+const databaseURL = 'https://smart-monitoring-t219.firebaseio.com/'
 const URL =
-  'https://fcm.googleapis.com/v1/projects/tryfirebase-a3bd9/messages:send'
+  'https://fcm.googleapis.com/v1/projects/smart-monitoring-t219/messages:send'
 const deviceToken =
-'esaUTrG2qzA:APA91bEJSc2cH_LKj2e0_ym3tbDGI2DGlwR24Ni7pq7_e1SYxVyaqbH2RKj7efFdmzh8vS5SG9Q0xq34Ij_tKF9RmUpgFFPe3OvixmLXkc5e-YFfSZq4OabaYrC1xQdUgyOWApJUqeUC'
+'d4gFoAwbrms:APA91bH5fOEGQ3iWzxD4scrI57jEbNjsECw14ipulrFhXUnDzULYLubGwWp8LaBXfCXx_2J3VK1G-hynL4yxAtiQwOuYima_GZsWKSSViAtAQMwfyt1L_Q7f2Fs8Z5RU4inm_lV3ccxh'
 function get()
 {
 //179=ELPQW2BNi979rAh-lwcIPq_v4Z6zxJnjVQr107JSiaG8XwJqlNLYuRLdGP1s6Rvd1YBdVyO7Kl_0XNWFG2ZvbZZ-JofllKhSZRrekDvwaILttf6tfQQ8sTgfggNRDzzr3QbEdJtZYTjNiu7WAab2ofrViWxgd-b0zofGH8oZk9o
@@ -66,7 +66,7 @@ async function init() {
       data: { key: 'value' },
       notification: {
         title: 'wasin',
-        body: 'Hi today is wensday'
+        body: 'Hi today is birth day'
       },
       webpush: {
         headers: {
